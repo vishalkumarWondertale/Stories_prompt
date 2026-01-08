@@ -129,23 +129,79 @@
 
 ```json
 {
-  "title": "Rohan Learns the Right Way",
-  "ageRange": "6-8",
-  "learningGoal": "Responsibility and Doing Things the Right Way",
-  "moral": "Doing things the right way makes life easier and better.",
-  "coverImagePrompt": "A playful boy Rohan with messy room transforming into a neat room, cartoon illustration",
-  "chapters": [
-    { "sequence": 1, "title": "Rohan the Mischief Maker", "coverImagePrompt": "Rohan playing with scattered toys" },
-    { "sequence": 2, "title": "The Missing School Bag", "coverImagePrompt": "Rohan searching for his bag" },
-    { "sequence": 3, "title": "Shoes in the Wrong Place", "coverImagePrompt": "Mismatched shoes scene" },
-    { "sequence": 4, "title": "Trouble at School", "coverImagePrompt": "Teacher gently correcting Rohan" },
-    { "sequence": 5, "title": "The Broken Toy Lesson", "coverImagePrompt": "Broken toy making Rohan sad" },
-    { "sequence": 6, "title": "A Talk with Grandpa", "coverImagePrompt": "Grandpa teaching responsibility" },
-    { "sequence": 7, "title": "Rohan Tries a New Way", "coverImagePrompt": "Rohan organizing his room" },
-    { "sequence": 8, "title": "A Responsible Morning", "coverImagePrompt": "Calm and organized morning routine" },
-    { "sequence": 9, "title": "Helping Others Do It Right", "coverImagePrompt": "Rohan helping friends organize" },
-    { "sequence": 10, "title": "Rohan the Good and Great Boy", "coverImagePrompt": "Confident Rohan smiling in neat room" }
-  ]
+  "storybook": {
+    "title": "Rohan Learns the Right Way",
+    "ageRange": "6-8",
+    "learningGoal": "Doing things the right way, being responsible, and caring for belongings",
+    "moral": "When we take responsibility and do things the right way, life becomes easier and we become better people.",
+    "protagonist": {
+      "name": "Rohan",
+      "description": "An energetic and playful boy who loves fun but often forgets to care for his things."
+    },
+    "coverImagePrompt": "A children's storybook cover showing a playful boy named Rohan surrounded by scattered books, shoes, toys, and a school bag, with a brighter future version of Rohan in the background smiling confidently, colorful cartoon style, child-friendly illustration",
+    "chapters": [
+      {
+        "sequence": 1,
+        "title": "Rohan the Mischief Maker",
+        "coverImagePrompt": "Rohan running around happily while toys, books, and shoes are scattered everywhere, playful cartoon style, bright colors",
+        "story": "Rohan was a fun-loving boy. He ran, played, and laughed all day. But he never kept his things in place. His room was always messy, and Rohan did not care at all."
+      },
+      {
+        "sequence": 2,
+        "title": "The Missing School Bag",
+        "coverImagePrompt": "Rohan looking confused while searching for his school bag in a messy room, books and clothes everywhere, cartoon illustration",
+        "story": "One morning, Rohan could not find his school bag. It was under the bed! He felt worried and got late for school. Still, he laughed and said, 'It doesn’t matter.'"
+      },
+      {
+        "sequence": 3,
+        "title": "Shoes in the Wrong Place",
+        "coverImagePrompt": "Rohan wearing mismatched shoes and searching for the other pair, funny and light cartoon style",
+        "story": "Another day, Rohan could not find his shoes. One was near the door, and the other was in the balcony. Everyone waited for him. Rohan felt a little embarrassed."
+      },
+      {
+        "sequence": 4,
+        "title": "Trouble at School",
+        "coverImagePrompt": "Rohan at school without his homework notebook, teacher gently talking to him, classroom scene, educational cartoon style",
+        "story": "At school, Rohan forgot his homework notebook. He had left it at home. His teacher explained kindly why keeping things properly is important. Rohan listened quietly."
+      },
+      {
+        "sequence": 5,
+        "title": "The Broken Toy Lesson",
+        "coverImagePrompt": "Rohan looking sad at a broken toy lying on the floor, soft emotional cartoon illustration",
+        "story": "That evening, Rohan found his favorite toy broken. He had thrown it carelessly before. Rohan felt sad. For the first time, he understood that not caring has a cost."
+      },
+      {
+        "sequence": 6,
+        "title": "A Talk with Grandpa",
+        "coverImagePrompt": "Rohan sitting with his grandfather listening carefully, warm and wise family scene, soft cartoon art",
+        "story": "Rohan’s grandpa said, 'Doing things the right way makes life simple.' He showed Rohan how he kept his things neatly. Rohan felt inspired."
+      },
+      {
+        "sequence": 7,
+        "title": "Rohan Tries a New Way",
+        "coverImagePrompt": "Rohan arranging his books, bag, and toys neatly, focused and happy expression, bright cartoon style",
+        "story": "The next day, Rohan decided to try. He kept his bag in one place and his shoes near the door. It felt good. He smiled proudly."
+      },
+      {
+        "sequence": 8,
+        "title": "A Responsible Morning",
+        "coverImagePrompt": "Rohan getting ready calmly for school with everything neatly arranged, confident and peaceful cartoon illustration",
+        "story": "That morning, Rohan found everything easily. He reached school on time. His day started without stress. Rohan felt happy and confident."
+      },
+      {
+        "sequence": 9,
+        "title": "Helping Others Do It Right",
+        "coverImagePrompt": "Rohan helping a friend organize books and school supplies, teamwork and kindness theme, cartoon style",
+        "story": "When a friend misplaced his things, Rohan helped him. He shared what he had learned. Rohan felt proud of himself."
+      },
+      {
+        "sequence": 10,
+        "title": "Rohan the Good and Great Boy",
+        "coverImagePrompt": "Rohan smiling confidently with a neat room behind him, books and trophies on shelves, inspiring cartoon illustration",
+        "story": "Rohan was still playful, but now he was careful too. He learned to do things the right way. Everyone noticed the change. Rohan had become a good and great boy."
+      }
+    ]
+  }
 }
 ```
 
