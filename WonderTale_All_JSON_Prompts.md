@@ -5,41 +5,52 @@
 ## 📘 Story 1: Nobita and the Door of Curious Questions
 
 ```json
-{
-  "title": "Nobita and the Door of Curious Questions",
-  "ageRange": "6-8",
-  "learningGoal": "Curiosity",
-  "moral": "Asking questions and exploring the unknown helps us learn and grow.",
-  "coverImagePrompt": "A colorful children's storybook cover showing a curious boy named Nobita standing in front of a glowing magical door filled with question marks, books floating in the air, stars, gears, cartoon style",
-  "chapters": [
-    {
-      "sequence": 1,
-      "title": "The Question That Wouldn't Sleep",
-      "coverImagePrompt": "Nobita lying on bed with question marks floating above, cozy night cartoon style"
+
+```{
+  "storybook": {
+    "title": "Nobita and the Door of Curious Questions",
+    "ageRange": "6-8",
+    "learningGoal": "Curiosity",
+    "moral": "Asking questions and exploring the unknown helps us learn, grow, and discover amazing possibilities.",
+    "protagonist": {
+      "name": "Nobita",
+      "description": "A kind-hearted, imaginative child who loves asking questions and exploring new ideas."
     },
-    {
-      "sequence": 2,
-      "title": "The Magical Door Appears",
-      "coverImagePrompt": "A glowing magical door appearing in Nobita's room, fantasy cartoon"
-    },
-    {
-      "sequence": 3,
-      "title": "The Land of Why",
-      "coverImagePrompt": "Fantasy land with question-shaped trees and talking animals"
-    },
-    {
-      "sequence": 4,
-      "title": "The Problem That Needed a Question",
-      "coverImagePrompt": "Nobita fixing a friendly robot using curiosity"
-    },
-    {
-      "sequence": 5,
-      "title": "Curiosity Comes Home",
-      "coverImagePrompt": "Confident Nobita smiling in morning sunlight"
-    }
-  ]
+    "coverImagePrompt": "A colorful children's storybook cover showing a curious boy named Nobita standing in front of a glowing magical door filled with question marks, books floating in the air, stars, gears, and playful animals, cartoon style, soft lighting, vibrant colors, whimsical and child-friendly illustration",
+    "chapters": [
+      {
+        "sequence": 1,
+        "title": "The Question That Wouldn't Sleep",
+        "coverImagePrompt": "Nobita lying on his bed at night with wide curious eyes, thought bubbles full of question marks, moonlight coming through the window, cozy cartoon bedroom, warm and playful illustration",
+        "story": "One quiet night, Nobita lay in his bed staring at the ceiling. His mind was full of questions. Why do stars twinkle? How do birds know where to fly? What is inside a seed before it grows? While others slept peacefully, Nobita's curiosity stayed wide awake. He whispered his questions to the moon, feeling excited instead of tired."
+      },
+      {
+        "sequence": 2,
+        "title": "The Magical Door Appears",
+        "coverImagePrompt": "A magical glowing door appearing in Nobita's room, covered with symbols of curiosity like question marks, books, light bulbs, and stars, Nobita reaching out with wonder, bright fantasy cartoon style",
+        "story": "Suddenly, a soft glow filled Nobita's room. A magical door appeared where his cupboard used to be. On the door were shining words: 'Only Curious Minds May Enter.' Nobita felt a little nervous, but his curiosity was stronger than his fear. He took a deep breath and opened the door."
+      },
+      {
+        "sequence": 3,
+        "title": "The Land of Why",
+        "coverImagePrompt": "A fantasy world with talking animals, floating books, colorful trees shaped like question marks, Nobita walking happily and asking questions, joyful cartoon illustration",
+        "story": "On the other side, Nobita found himself in the Land of Why. Here, trees whispered answers, rivers giggled with secrets, and animals loved being asked questions. A wise owl told Nobita, 'Every question is a key to learning.' Nobita asked, listened, and discovered wonderful things everywhere he went."
+      },
+      {
+        "sequence": 4,
+        "title": "The Problem That Needed a Question",
+        "coverImagePrompt": "Nobita helping a small robot fix itself by asking questions, teamwork scene, friendly robot, bright and educational cartoon art",
+        "story": "Nobita soon met a little robot who had stopped working. Instead of feeling scared, Nobita asked questions. 'What happened? What do you need?' With every question, Nobita learned more. Together, they fixed the robot. Everyone cheered, and Nobita felt proud of the power of curiosity."
+      },
+      {
+        "sequence": 5,
+        "title": "Curiosity Comes Home",
+        "coverImagePrompt": "Nobita waking up in his room with sunlight, smiling confidently, books and school bag nearby, hopeful and inspiring cartoon illustration",
+        "story": "The magical door slowly faded, and Nobita found himself back in his room as morning sunlight filled the space. At school that day, Nobita raised his hand and asked questions without fear. He knew now that curiosity was his superpower—one that would help him learn and grow every day."
+      }
+    ]
+  }
 }
-```
 
 ---
 
