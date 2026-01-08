@@ -110,38 +110,49 @@
 
 ```json
 {
-  "title": "Kajal Dreams of the Stars",
-  "ageRange": "3-5",
-  "learningGoal": "Dream Big",
-  "moral": "Big dreams start small.",
-  "coverImagePrompt": "Cute little girl Kajal wearing an astronaut helmet, stars and moon in background, dreamy cartoon style",
-  "chapters": [
-    {
-      "sequence": 1,
-      "title": "Kajal Looks at the Sky",
-      "coverImagePrompt": "Kajal looking at stars holding parent hand"
+  "storybook": {
+    "title": "Kajal Dreams of the Stars",
+    "ageRange": "3-5",
+    "learningGoal": "Dream Big and Believe in Yourself",
+    "moral": "Big dreams start small. When you believe in yourself, you can reach the stars.",
+    "protagonist": {
+      "name": "Kajal",
+      "description": "A cheerful little girl who loves looking at the sky and dreaming about space."
     },
-    {
-      "sequence": 2,
-      "title": "The Astronaut Dream",
-      "coverImagePrompt": "Kajal floating in space as an astronaut"
-    },
-    {
-      "sequence": 3,
-      "title": "Learning Every Day",
-      "coverImagePrompt": "Kajal reading space books happily"
-    },
-    {
-      "sequence": 4,
-      "title": "You Can Do It, Kajal",
-      "coverImagePrompt": "Parents encouraging Kajal"
-    },
-    {
-      "sequence": 5,
-      "title": "A Big Dream in a Little Heart",
-      "coverImagePrompt": "Sleeping Kajal dreaming of rockets and stars"
-    }
-  ]
+    "coverImagePrompt": "A cute children's storybook cover showing a little girl named Kajal wearing an astronaut helmet, looking up at the stars and moon, rockets and planets in the sky, soft pastel colors, adorable cartoon style, dreamy and magical illustration",
+    "chapters": [
+      {
+        "sequence": 1,
+        "title": "Kajal Looks at the Sky",
+        "coverImagePrompt": "Little Kajal standing outside at night holding her parent's hand, looking at stars and moon, calm and dreamy cartoon illustration, soft colors",
+        "story": "Every night, Kajal looked up at the sky. She saw the moon and twinkling stars. Her eyes sparkled. Kajal smiled and said softly, 'One day, I will go there.'"
+      },
+      {
+        "sequence": 2,
+        "title": "The Astronaut Dream",
+        "coverImagePrompt": "Kajal imagining herself as a tiny astronaut floating in space with planets and stars, playful and cute cartoon style",
+        "story": "Kajal closed her eyes and imagined herself in a white astronaut suit. She floated in space and waved at the stars. Her heart felt happy. Dreaming made her feel brave."
+      },
+      {
+        "sequence": 3,
+        "title": "Learning Every Day",
+        "coverImagePrompt": "Kajal reading picture books about space with planets and rockets, sitting on the floor happily, bright and child-friendly illustration",
+        "story": "During the day, Kajal loved looking at books. She learned about the sun, moon, and stars. Every little thing she learned made her dream bigger."
+      },
+      {
+        "sequence": 4,
+        "title": "You Can Do It, Kajal",
+        "coverImagePrompt": "Kajal's parents encouraging her, giving her a hug while pointing to the sky, warm and loving cartoon illustration",
+        "story": "Kajal’s parents smiled and said, 'You can be anything you want.' Kajal felt strong and happy. She knew her dreams mattered."
+      },
+      {
+        "sequence": 5,
+        "title": "A Big Dream in a Little Heart",
+        "coverImagePrompt": "Kajal sleeping peacefully with dreams of rockets and stars above her head, soft bedtime cartoon illustration",
+        "story": "As Kajal slept, she dreamed of rockets and stars. Her dream was big, and her heart was full. Kajal knew that one day, she would touch the sky."
+      }
+    ]
+  }
 }
 ```
 
