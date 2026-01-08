@@ -58,38 +58,49 @@
 
 ```json
 {
-  "title": "Ram and the Little Acts of Kindness",
-  "ageRange": "4-6",
-  "learningGoal": "Kindness",
-  "moral": "Small acts of kindness make the world happier.",
-  "coverImagePrompt": "A gentle cartoon cover showing Ram helping friends and animals, soft pastel colors",
-  "chapters": [
-    {
-      "sequence": 1,
-      "title": "Ram's Happy Morning",
-      "coverImagePrompt": "Ram waking up smiling with sunshine"
+  "storybook": {
+    "title": "Ram and the Little Acts of Kindness",
+    "ageRange": "4-6",
+    "learningGoal": "Kindness",
+    "moral": "Small acts of kindness can make a big difference and spread happiness everywhere.",
+    "protagonist": {
+      "name": "Ram",
+      "description": "A gentle and cheerful little boy who loves helping others with a kind heart."
     },
-    {
-      "sequence": 2,
-      "title": "Helping a Friend",
-      "coverImagePrompt": "Ram helping a friend pick up toys"
-    },
-    {
-      "sequence": 3,
-      "title": "Kindness to Little Creatures",
-      "coverImagePrompt": "Ram giving water to a small bird"
-    },
-    {
-      "sequence": 4,
-      "title": "Sharing Makes Joy Grow",
-      "coverImagePrompt": "Ram sharing snacks with friends"
-    },
-    {
-      "sequence": 5,
-      "title": "A Kind Heart at Home",
-      "coverImagePrompt": "Ram hugging family at bedtime"
-    }
-  ]
+    "coverImagePrompt": "A warm and colorful children's storybook cover showing a smiling young boy named Ram helping animals and friends, soft pastel colors, friendly cartoon style, sunny background, hearts and flowers around, joyful and child-friendly illustration",
+    "chapters": [
+      {
+        "sequence": 1,
+        "title": "Ram's Happy Morning",
+        "coverImagePrompt": "Ram waking up with a smile in a cozy bedroom, sunlight coming through the window, cheerful cartoon style, soft colors, toys and books nearby",
+        "story": "One sunny morning, Ram woke up with a big smile. He loved starting his day with happy thoughts. As he brushed his teeth, he remembered what his mother always said, 'A kind heart makes every day brighter.' Ram felt ready to spread kindness."
+      },
+      {
+        "sequence": 2,
+        "title": "Helping a Friend",
+        "coverImagePrompt": "Ram helping a friend pick up fallen toys at school, children smiling together, bright classroom, friendly cartoon illustration",
+        "story": "At school, Ram saw his friend drop a box of toys. Without thinking twice, Ram helped pick them up. His friend smiled and said thank you. Ram felt warm inside. Being kind made his heart feel light and happy."
+      },
+      {
+        "sequence": 3,
+        "title": "Kindness to Little Creatures",
+        "coverImagePrompt": "Ram gently giving water to a small thirsty bird in a garden, flowers and trees around, soft and caring cartoon illustration",
+        "story": "After school, Ram saw a little bird looking tired and thirsty. He placed a small bowl of water near it. The bird chirped happily. Ram smiled, knowing that kindness is not just for people but for everyone."
+      },
+      {
+        "sequence": 4,
+        "title": "Sharing Makes Joy Grow",
+        "coverImagePrompt": "Ram sharing his snacks with friends under a tree, happy children laughing together, bright and playful cartoon style",
+        "story": "Later, Ram shared his snacks with his friends. Everyone laughed and enjoyed together. Ram learned that sharing is a simple way to show kindness and make moments more joyful."
+      },
+      {
+        "sequence": 5,
+        "title": "A Kind Heart at Home",
+        "coverImagePrompt": "Ram hugging his parents at home in the evening, warm lighting, loving family scene, soft cartoon illustration",
+        "story": "At night, Ram hugged his parents and helped tidy up his toys. As he went to bed, he felt proud. Ram knew that even small kind acts can make the world a happier place."
+      }
+    ]
+  }
 }
 ```
 
