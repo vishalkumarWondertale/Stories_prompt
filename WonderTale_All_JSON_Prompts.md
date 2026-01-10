@@ -5,8 +5,7 @@
 ## 📘 Story 1: Nobita and the Door of Curious Questions
 
 ```json
-
-```{
+{
   "storybook": {
     "title": "Nobita and the Door of Curious Questions",
     "ageRange": "6-8",
@@ -21,36 +20,149 @@
       {
         "sequence": 1,
         "title": "The Question That Wouldn't Sleep",
-        "coverImagePrompt": "Nobita lying on his bed at night with wide curious eyes, thought bubbles full of question marks, moonlight coming through the window, cozy cartoon bedroom, warm and playful illustration",
-        "story": "One quiet night, Nobita lay in his bed staring at the ceiling. His mind was full of questions. Why do stars twinkle? How do birds know where to fly? What is inside a seed before it grows? While others slept peacefully, Nobita's curiosity stayed wide awake. He whispered his questions to the moon, feeling excited instead of tired."
+        "blocks": [
+          {
+            "name": "curious-night",
+            "Block": {
+              "text": "One quiet night, Nobita lay in his bed staring at the ceiling. His mind was full of questions.",
+              "image-prompt": "Nobita lying on his bed at night, eyes wide open, moonlight through the window, cozy cartoon bedroom, soft lighting",
+              "max-length": 220
+            }
+          },
+          {
+            "name": "endless-questions",
+            "Block": {
+              "text": "Why do stars twinkle? How do birds know where to fly? What is inside a seed before it grows?",
+              "image-prompt": "Thought bubbles with stars, birds, and seeds floating above Nobita's head, dreamy and playful cartoon style",
+              "max-length": 180
+            }
+          },
+          {
+            "name": "curiosity-awake",
+            "Block": {
+              "text": "While others slept peacefully, Nobita whispered his questions to the moon, feeling excited instead of tired.",
+              "image-prompt": "Nobita whispering toward the moon outside his window, calm night sky, gentle and magical cartoon illustration",
+              "max-length": 200
+            }
+          }
+        ]
       },
       {
         "sequence": 2,
         "title": "The Magical Door Appears",
-        "coverImagePrompt": "A magical glowing door appearing in Nobita's room, covered with symbols of curiosity like question marks, books, light bulbs, and stars, Nobita reaching out with wonder, bright fantasy cartoon style",
-        "story": "Suddenly, a soft glow filled Nobita's room. A magical door appeared where his cupboard used to be. On the door were shining words: 'Only Curious Minds May Enter.' Nobita felt a little nervous, but his curiosity was stronger than his fear. He took a deep breath and opened the door."
+        "blocks": [
+          {
+            "name": "mysterious-glow",
+            "Block": {
+              "text": "Suddenly, a soft glow filled Nobita’s room, lighting up everything around him.",
+              "image-prompt": "A warm magical glow spreading across Nobita's bedroom at night, fantasy cartoon lighting",
+              "max-length": 160
+            }
+          },
+          {
+            "name": "door-of-curiosity",
+            "Block": {
+              "text": "A magical door appeared where his cupboard used to be. Shining words said, 'Only Curious Minds May Enter.'",
+              "image-prompt": "A glowing magical door covered with question marks, books, stars, and light bulbs inside a bedroom, bright fantasy cartoon style",
+              "max-length": 220
+            }
+          },
+          {
+            "name": "brave-step",
+            "Block": {
+              "text": "Nobita felt nervous, but his curiosity was stronger. He took a deep breath and opened the door.",
+              "image-prompt": "Nobita reaching out bravely to open a glowing magical door, expression of wonder and courage, child-friendly cartoon art",
+              "max-length": 180
+            }
+          }
+        ]
       },
       {
         "sequence": 3,
         "title": "The Land of Why",
-        "coverImagePrompt": "A fantasy world with talking animals, floating books, colorful trees shaped like question marks, Nobita walking happily and asking questions, joyful cartoon illustration",
-        "story": "On the other side, Nobita found himself in the Land of Why. Here, trees whispered answers, rivers giggled with secrets, and animals loved being asked questions. A wise owl told Nobita, 'Every question is a key to learning.' Nobita asked, listened, and discovered wonderful things everywhere he went."
+        "blocks": [
+          {
+            "name": "new-world",
+            "Block": {
+              "text": "Nobita stepped into the Land of Why, a place full of wonders and questions.",
+              "image-prompt": "Fantasy land with colorful trees shaped like question marks, floating books, and glowing paths, joyful cartoon illustration",
+              "max-length": 170
+            }
+          },
+          {
+            "name": "talking-nature",
+            "Block": {
+              "text": "Trees whispered answers, rivers giggled with secrets, and animals loved being asked questions.",
+              "image-prompt": "Talking animals, smiling trees, and laughing rivers interacting with Nobita, whimsical cartoon style",
+              "max-length": 220
+            }
+          },
+          {
+            "name": "wise-owl",
+            "Block": {
+              "text": "A wise owl said, 'Every question is a key to learning.' Nobita listened carefully and learned something new.",
+              "image-prompt": "A wise owl talking to Nobita in a magical forest, peaceful and educational cartoon illustration",
+              "max-length": 200
+            }
+          }
+        ]
       },
       {
         "sequence": 4,
         "title": "The Problem That Needed a Question",
-        "coverImagePrompt": "Nobita helping a small robot fix itself by asking questions, teamwork scene, friendly robot, bright and educational cartoon art",
-        "story": "Nobita soon met a little robot who had stopped working. Instead of feeling scared, Nobita asked questions. 'What happened? What do you need?' With every question, Nobita learned more. Together, they fixed the robot. Everyone cheered, and Nobita felt proud of the power of curiosity."
+        "blocks": [
+          {
+            "name": "robot-trouble",
+            "Block": {
+              "text": "Nobita met a little robot that had stopped working and looked very sad.",
+              "image-prompt": "A small friendly robot sitting sadly while Nobita looks at it with concern, bright cartoon style",
+              "max-length": 160
+            }
+          },
+          {
+            "name": "asking-questions",
+            "Block": {
+              "text": "Instead of feeling scared, Nobita asked questions. 'What happened? What do you need?'",
+              "image-prompt": "Nobita gently talking to a robot, asking questions, teamwork and learning theme, educational cartoon art",
+              "max-length": 180
+            }
+          },
+          {
+            "name": "problem-solved",
+            "Block": {
+              "text": "With every question, Nobita learned more. Together, they fixed the robot and everyone cheered.",
+              "image-prompt": "Happy Nobita and robot celebrating after fixing the problem, joyful and colorful cartoon illustration",
+              "max-length": 220
+            }
+          }
+        ]
       },
       {
         "sequence": 5,
         "title": "Curiosity Comes Home",
-        "coverImagePrompt": "Nobita waking up in his room with sunlight, smiling confidently, books and school bag nearby, hopeful and inspiring cartoon illustration",
-        "story": "The magical door slowly faded, and Nobita found himself back in his room as morning sunlight filled the space. At school that day, Nobita raised his hand and asked questions without fear. He knew now that curiosity was his superpower—one that would help him learn and grow every day."
+        "blocks": [
+          {
+            "name": "back-home",
+            "Block": {
+              "text": "The magical door faded away, and Nobita found himself back in his room as morning sunlight filled the space.",
+              "image-prompt": "Nobita standing in his room with morning sunlight, magical glow fading softly, warm cartoon illustration",
+              "max-length": 220
+            }
+          },
+          {
+            "name": "curiosity-superpower",
+            "Block": {
+              "text": "At school, Nobita raised his hand and asked questions without fear. Curiosity had become his superpower.",
+              "image-prompt": "Nobita confidently raising his hand in a classroom, teacher and classmates smiling, inspiring cartoon style",
+              "max-length": 220
+            }
+          }
+        ]
       }
     ]
   }
 }
+
 
 ---
 
@@ -72,36 +184,117 @@
       {
         "sequence": 1,
         "title": "Ram's Happy Morning",
-        "coverImagePrompt": "Ram waking up with a smile in a cozy bedroom, sunlight coming through the window, cheerful cartoon style, soft colors, toys and books nearby",
-        "story": "One sunny morning, Ram woke up with a big smile. He loved starting his day with happy thoughts. As he brushed his teeth, he remembered what his mother always said, 'A kind heart makes every day brighter.' Ram felt ready to spread kindness."
+        "blocks": [
+          {
+            "name": "Morning Joy",
+            "Block": {
+              "text": "One sunny morning, Ram woke up with a big smile. Sunlight filled his room and made him feel happy.",
+              "image-prompt": "Ram waking up smiling in a cozy bedroom with sunlight through the window, toys and books around, soft cartoon illustration",
+              "max-length": 300
+            }
+          },
+          {
+            "name": "Kind Thought",
+            "Block": {
+              "text": "As Ram brushed his teeth, he remembered his mother’s words: 'A kind heart makes every day brighter.' Ram felt ready to spread kindness.",
+              "image-prompt": "Ram brushing teeth while thinking happily, warm home setting, gentle and friendly cartoon style",
+              "max-length": 300
+            }
+          }
+        ]
       },
       {
         "sequence": 2,
         "title": "Helping a Friend",
-        "coverImagePrompt": "Ram helping a friend pick up fallen toys at school, children smiling together, bright classroom, friendly cartoon illustration",
-        "story": "At school, Ram saw his friend drop a box of toys. Without thinking twice, Ram helped pick them up. His friend smiled and said thank you. Ram felt warm inside. Being kind made his heart feel light and happy."
+        "blocks": [
+          {
+            "name": "Friend in Trouble",
+            "Block": {
+              "text": "At school, Ram saw his friend drop a box of toys on the floor.",
+              "image-prompt": "A classroom scene where toys fall on the floor, a child looking surprised, bright cartoon style",
+              "max-length": 200
+            }
+          },
+          {
+            "name": "Helping Hands",
+            "Block": {
+              "text": "Ram quickly helped pick up the toys. His friend smiled and said thank you. Ram felt warm and happy inside.",
+              "image-prompt": "Ram helping a friend pick up toys, children smiling together, colorful classroom cartoon illustration",
+              "max-length": 300
+            }
+          }
+        ]
       },
       {
         "sequence": 3,
         "title": "Kindness to Little Creatures",
-        "coverImagePrompt": "Ram gently giving water to a small thirsty bird in a garden, flowers and trees around, soft and caring cartoon illustration",
-        "story": "After school, Ram saw a little bird looking tired and thirsty. He placed a small bowl of water near it. The bird chirped happily. Ram smiled, knowing that kindness is not just for people but for everyone."
+        "blocks": [
+          {
+            "name": "Thirsty Bird",
+            "Block": {
+              "text": "After school, Ram saw a little bird that looked tired and thirsty in the garden.",
+              "image-prompt": "A small bird sitting weakly in a garden with flowers and trees, gentle cartoon style",
+              "max-length": 200
+            }
+          },
+          {
+            "name": "Caring Act",
+            "Block": {
+              "text": "Ram placed a small bowl of water near the bird. The bird chirped happily, and Ram smiled with joy.",
+              "image-prompt": "Ram gently giving water to a small bird, caring and soft cartoon illustration",
+              "max-length": 300
+            }
+          }
+        ]
       },
       {
         "sequence": 4,
         "title": "Sharing Makes Joy Grow",
-        "coverImagePrompt": "Ram sharing his snacks with friends under a tree, happy children laughing together, bright and playful cartoon style",
-        "story": "Later, Ram shared his snacks with his friends. Everyone laughed and enjoyed together. Ram learned that sharing is a simple way to show kindness and make moments more joyful."
+        "blocks": [
+          {
+            "name": "Snack Time",
+            "Block": {
+              "text": "Later, Ram sat under a tree with his friends during snack time.",
+              "image-prompt": "Children sitting under a tree with snacks, cheerful outdoor cartoon illustration",
+              "max-length": 200
+            }
+          },
+          {
+            "name": "Sharing Happiness",
+            "Block": {
+              "text": "Ram shared his snacks with everyone. They laughed together and felt happy. Sharing made the moment special.",
+              "image-prompt": "Ram sharing snacks with friends, happy children laughing together, bright cartoon style",
+              "max-length": 300
+            }
+          }
+        ]
       },
       {
         "sequence": 5,
         "title": "A Kind Heart at Home",
-        "coverImagePrompt": "Ram hugging his parents at home in the evening, warm lighting, loving family scene, soft cartoon illustration",
-        "story": "At night, Ram hugged his parents and helped tidy up his toys. As he went to bed, he felt proud. Ram knew that even small kind acts can make the world a happier place."
+        "blocks": [
+          {
+            "name": "Helping at Home",
+            "Block": {
+              "text": "In the evening, Ram helped tidy up his toys and hugged his parents.",
+              "image-prompt": "Ram cleaning toys and hugging parents, warm family scene, soft cartoon illustration",
+              "max-length": 300
+            }
+          },
+          {
+            "name": "Kind Ending",
+            "Block": {
+              "text": "As Ram went to bed, he felt proud. He knew that small kind acts can make the world a happier place.",
+              "image-prompt": "Ram sleeping peacefully with a smile, warm bedtime cartoon illustration",
+              "max-length": 300
+            }
+          }
+        ]
       }
     ]
   }
 }
+
 ```
 
 ---
@@ -256,66 +449,227 @@
       {
         "sequence": 1,
         "title": "Rohan the Mischief Maker",
-        "coverImagePrompt": "Rohan running around happily while toys, books, and shoes are scattered everywhere, playful cartoon style, bright colors",
-        "story": "Rohan was a fun-loving boy. He ran, played, and laughed all day. But he never kept his things in place. His room was always messy, and Rohan did not care at all."
+        "blocks": [
+          {
+            "name": "Playful Nature",
+            "Block": {
+              "text": "Rohan was a fun-loving boy who loved to run, play, and laugh all day.",
+              "image-prompt": "Rohan running and playing happily, energetic child cartoon illustration",
+              "max-length": 200
+            }
+          },
+          {
+            "name": "Messy Habits",
+            "Block": {
+              "text": "Toys, books, and shoes were scattered everywhere. Rohan never kept his things in place and did not care.",
+              "image-prompt": "Messy room with toys, books, and shoes everywhere, Rohan smiling carelessly, cartoon style",
+              "max-length": 300
+            }
+          }
+        ]
       },
       {
         "sequence": 2,
         "title": "The Missing School Bag",
-        "coverImagePrompt": "Rohan looking confused while searching for his school bag in a messy room, books and clothes everywhere, cartoon illustration",
-        "story": "One morning, Rohan could not find his school bag. It was under the bed! He felt worried and got late for school. Still, he laughed and said, 'It doesn’t matter.'"
+        "blocks": [
+          {
+            "name": "Morning Trouble",
+            "Block": {
+              "text": "One morning, Rohan could not find his school bag. He looked around in confusion.",
+              "image-prompt": "Rohan searching for his school bag in a messy room, worried expression, cartoon illustration",
+              "max-length": 250
+            }
+          },
+          {
+            "name": "Late but Careless",
+            "Block": {
+              "text": "The bag was under the bed. Rohan got late for school but laughed and said, 'It doesn’t matter.'",
+              "image-prompt": "Rohan pulling school bag from under the bed, playful cartoon style",
+              "max-length": 300
+            }
+          }
+        ]
       },
       {
         "sequence": 3,
         "title": "Shoes in the Wrong Place",
-        "coverImagePrompt": "Rohan wearing mismatched shoes and searching for the other pair, funny and light cartoon style",
-        "story": "Another day, Rohan could not find his shoes. One was near the door, and the other was in the balcony. Everyone waited for him. Rohan felt a little embarrassed."
+        "blocks": [
+          {
+            "name": "Mismatched Shoes",
+            "Block": {
+              "text": "Another day, Rohan could not find his shoes. One was near the door, the other in the balcony.",
+              "image-prompt": "Rohan wearing mismatched shoes, looking confused, funny cartoon illustration",
+              "max-length": 300
+            }
+          },
+          {
+            "name": "Feeling Embarrassed",
+            "Block": {
+              "text": "Everyone waited for him. Rohan felt a little embarrassed for the first time.",
+              "image-prompt": "Family waiting while Rohan looks embarrassed, light emotional cartoon style",
+              "max-length": 250
+            }
+          }
+        ]
       },
       {
         "sequence": 4,
         "title": "Trouble at School",
-        "coverImagePrompt": "Rohan at school without his homework notebook, teacher gently talking to him, classroom scene, educational cartoon style",
-        "story": "At school, Rohan forgot his homework notebook. He had left it at home. His teacher explained kindly why keeping things properly is important. Rohan listened quietly."
+        "blocks": [
+          {
+            "name": "Forgotten Homework",
+            "Block": {
+              "text": "At school, Rohan forgot his homework notebook because he left it at home.",
+              "image-prompt": "Rohan standing in class without homework notebook, classroom cartoon scene",
+              "max-length": 250
+            }
+          },
+          {
+            "name": "Teacher’s Advice",
+            "Block": {
+              "text": "His teacher kindly explained why keeping things properly is important. Rohan listened quietly.",
+              "image-prompt": "Teacher gently talking to Rohan in classroom, caring educational cartoon illustration",
+              "max-length": 300
+            }
+          }
+        ]
       },
       {
         "sequence": 5,
         "title": "The Broken Toy Lesson",
-        "coverImagePrompt": "Rohan looking sad at a broken toy lying on the floor, soft emotional cartoon illustration",
-        "story": "That evening, Rohan found his favorite toy broken. He had thrown it carelessly before. Rohan felt sad. For the first time, he understood that not caring has a cost."
+        "blocks": [
+          {
+            "name": "Sad Discovery",
+            "Block": {
+              "text": "That evening, Rohan found his favorite toy broken on the floor.",
+              "image-prompt": "Broken toy on the floor, Rohan looking sad, soft emotional cartoon illustration",
+              "max-length": 200
+            }
+          },
+          {
+            "name": "Understanding the Cost",
+            "Block": {
+              "text": "He remembered throwing it carelessly before. Rohan realized that not caring has a cost.",
+              "image-prompt": "Rohan sitting sadly, thinking deeply, gentle cartoon style",
+              "max-length": 300
+            }
+          }
+        ]
       },
       {
         "sequence": 6,
         "title": "A Talk with Grandpa",
-        "coverImagePrompt": "Rohan sitting with his grandfather listening carefully, warm and wise family scene, soft cartoon art",
-        "story": "Rohan’s grandpa said, 'Doing things the right way makes life simple.' He showed Rohan how he kept his things neatly. Rohan felt inspired."
+        "blocks": [
+          {
+            "name": "Wise Words",
+            "Block": {
+              "text": "Rohan’s grandpa said, 'Doing things the right way makes life simple.'",
+              "image-prompt": "Grandfather speaking kindly to Rohan, warm family cartoon scene",
+              "max-length": 200
+            }
+          },
+          {
+            "name": "Inspired by Example",
+            "Block": {
+              "text": "Grandpa showed how he kept his things neatly. Rohan felt inspired to change.",
+              "image-prompt": "Grandpa showing neatly arranged items, Rohan watching with interest, cartoon illustration",
+              "max-length": 300
+            }
+          }
+        ]
       },
       {
         "sequence": 7,
         "title": "Rohan Tries a New Way",
-        "coverImagePrompt": "Rohan arranging his books, bag, and toys neatly, focused and happy expression, bright cartoon style",
-        "story": "The next day, Rohan decided to try. He kept his bag in one place and his shoes near the door. It felt good. He smiled proudly."
+        "blocks": [
+          {
+            "name": "First Effort",
+            "Block": {
+              "text": "The next day, Rohan decided to try. He kept his bag in one place and shoes near the door.",
+              "image-prompt": "Rohan organizing his belongings neatly, focused cartoon style",
+              "max-length": 300
+            }
+          },
+          {
+            "name": "Proud Moment",
+            "Block": {
+              "text": "It felt good. Rohan smiled proudly at his clean space.",
+              "image-prompt": "Neat room with Rohan smiling proudly, bright cartoon illustration",
+              "max-length": 200
+            }
+          }
+        ]
       },
       {
         "sequence": 8,
         "title": "A Responsible Morning",
-        "coverImagePrompt": "Rohan getting ready calmly for school with everything neatly arranged, confident and peaceful cartoon illustration",
-        "story": "That morning, Rohan found everything easily. He reached school on time. His day started without stress. Rohan felt happy and confident."
+        "blocks": [
+          {
+            "name": "Calm Start",
+            "Block": {
+              "text": "That morning, Rohan found everything easily and got ready calmly.",
+              "image-prompt": "Rohan getting ready for school calmly, tidy room, peaceful cartoon style",
+              "max-length": 250
+            }
+          },
+          {
+            "name": "Confident Day",
+            "Block": {
+              "text": "He reached school on time and felt happy and confident all day.",
+              "image-prompt": "Rohan walking confidently to school, bright and positive cartoon illustration",
+              "max-length": 250
+            }
+          }
+        ]
       },
       {
         "sequence": 9,
         "title": "Helping Others Do It Right",
-        "coverImagePrompt": "Rohan helping a friend organize books and school supplies, teamwork and kindness theme, cartoon style",
-        "story": "When a friend misplaced his things, Rohan helped him. He shared what he had learned. Rohan felt proud of himself."
+        "blocks": [
+          {
+            "name": "Sharing Lessons",
+            "Block": {
+              "text": "When a friend misplaced his things, Rohan helped him organize them.",
+              "image-prompt": "Rohan helping a friend arrange school supplies, teamwork cartoon style",
+              "max-length": 300
+            }
+          },
+          {
+            "name": "Proud Helper",
+            "Block": {
+              "text": "Rohan shared what he learned and felt proud of himself.",
+              "image-prompt": "Rohan smiling proudly while helping a friend, warm cartoon illustration",
+              "max-length": 200
+            }
+          }
+        ]
       },
       {
         "sequence": 10,
         "title": "Rohan the Good and Great Boy",
-        "coverImagePrompt": "Rohan smiling confidently with a neat room behind him, books and trophies on shelves, inspiring cartoon illustration",
-        "story": "Rohan was still playful, but now he was careful too. He learned to do things the right way. Everyone noticed the change. Rohan had become a good and great boy."
+        "blocks": [
+          {
+            "name": "Positive Change",
+            "Block": {
+              "text": "Rohan was still playful, but now he was careful and responsible too.",
+              "image-prompt": "Rohan playing happily in a neat room, balanced cartoon illustration",
+              "max-length": 300
+            }
+          },
+          {
+            "name": "Great Ending",
+            "Block": {
+              "text": "Everyone noticed the change. Rohan had become a good and great boy.",
+              "image-prompt": "Rohan smiling confidently with neat room and achievements behind him, inspiring cartoon style",
+              "max-length": 300
+            }
+          }
+        ]
       }
     ]
   }
 }
+
 ```
 
 ---
