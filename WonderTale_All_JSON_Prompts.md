@@ -124,32 +124,112 @@
       {
         "sequence": 1,
         "title": "Kajal Looks at the Sky",
-        "coverImagePrompt": "Little Kajal standing outside at night holding her parent's hand, looking at stars and moon, calm and dreamy cartoon illustration, soft colors",
-        "story": "Every night, Kajal looked up at the sky. She saw the moon and twinkling stars. Her eyes sparkled. Kajal smiled and said softly, 'One day, I will go there.'"
+        "blocks": [
+          {
+            "name": "night-sky-curiosity",
+            "Block": {
+              "text": "Every night, Kajal looked up at the sky. She saw the moon and twinkling stars.",
+              "image-prompt": "Little Kajal standing outside at night holding her parent's hand, looking at the moon and stars, calm and dreamy cartoon illustration, soft pastel colors",
+              "max-length": 200
+            }
+          },
+          {
+            "name": "first-big-dream",
+            "Block": {
+              "text": "Her eyes sparkled. Kajal smiled and said softly, 'One day, I will go there.'",
+              "image-prompt": "Close-up of Kajal smiling with sparkling eyes while looking at the stars, gentle and inspiring cartoon style",
+              "max-length": 150
+            }
+          }
+        ]
       },
       {
         "sequence": 2,
         "title": "The Astronaut Dream",
-        "coverImagePrompt": "Kajal imagining herself as a tiny astronaut floating in space with planets and stars, playful and cute cartoon style",
-        "story": "Kajal closed her eyes and imagined herself in a white astronaut suit. She floated in space and waved at the stars. Her heart felt happy. Dreaming made her feel brave."
+        "blocks": [
+          {
+            "name": "dreaming-astronaut",
+            "Block": {
+              "text": "Kajal closed her eyes and imagined herself in a white astronaut suit.",
+              "image-prompt": "Cute little Kajal imagining herself wearing a white astronaut suit, floating gently, dreamy cartoon illustration",
+              "max-length": 150
+            }
+          },
+          {
+            "name": "floating-in-space",
+            "Block": {
+              "text": "She floated in space and waved at the stars. Dreaming made her feel brave and happy.",
+              "image-prompt": "Tiny astronaut Kajal floating in space, waving at colorful stars and planets, playful and magical cartoon style",
+              "max-length": 200
+            }
+          }
+        ]
       },
       {
         "sequence": 3,
         "title": "Learning Every Day",
-        "coverImagePrompt": "Kajal reading picture books about space with planets and rockets, sitting on the floor happily, bright and child-friendly illustration",
-        "story": "During the day, Kajal loved looking at books. She learned about the sun, moon, and stars. Every little thing she learned made her dream bigger."
+        "blocks": [
+          {
+            "name": "learning-about-space",
+            "Block": {
+              "text": "During the day, Kajal loved looking at books about space.",
+              "image-prompt": "Kajal sitting on the floor reading picture books about space, planets and rockets around her, bright and child-friendly illustration",
+              "max-length": 150
+            }
+          },
+          {
+            "name": "dream-growing",
+            "Block": {
+              "text": "She learned about the sun, moon, and stars. Every little thing she learned made her dream bigger.",
+              "image-prompt": "Kajal smiling while looking at drawings of the sun, moon, and stars, soft educational cartoon style",
+              "max-length": 200
+            }
+          }
+        ]
       },
       {
         "sequence": 4,
         "title": "You Can Do It, Kajal",
-        "coverImagePrompt": "Kajal's parents encouraging her, giving her a hug while pointing to the sky, warm and loving cartoon illustration",
-        "story": "Kajal’s parents smiled and said, 'You can be anything you want.' Kajal felt strong and happy. She knew her dreams mattered."
+        "blocks": [
+          {
+            "name": "parent-support",
+            "Block": {
+              "text": "Kajal’s parents hugged her and said, 'You can be anything you want.'",
+              "image-prompt": "Kajal being hugged by her parents while pointing at the sky, warm and loving family cartoon illustration",
+              "max-length": 180
+            }
+          },
+          {
+            "name": "confidence-builds",
+            "Block": {
+              "text": "Kajal felt strong and happy. She knew her dreams mattered.",
+              "image-prompt": "Confident Kajal smiling with stars glowing softly around her, inspirational cartoon style",
+              "max-length": 150
+            }
+          }
+        ]
       },
       {
         "sequence": 5,
         "title": "A Big Dream in a Little Heart",
-        "coverImagePrompt": "Kajal sleeping peacefully with dreams of rockets and stars above her head, soft bedtime cartoon illustration",
-        "story": "As Kajal slept, she dreamed of rockets and stars. Her dream was big, and her heart was full. Kajal knew that one day, she would touch the sky."
+        "blocks": [
+          {
+            "name": "bedtime-dream",
+            "Block": {
+              "text": "At night, Kajal slept peacefully and dreamed of rockets and stars.",
+              "image-prompt": "Sleeping Kajal in her bed with dream clouds showing rockets, stars, and planets, soft bedtime cartoon illustration",
+              "max-length": 180
+            }
+          },
+          {
+            "name": "future-hope",
+            "Block": {
+              "text": "Her dream was big, and her heart was full. One day, Kajal would touch the sky.",
+              "image-prompt": "Hopeful illustration of Kajal reaching toward the stars, gentle and magical cartoon style",
+              "max-length": 200
+            }
+          }
+        ]
       }
     ]
   }
